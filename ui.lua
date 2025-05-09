@@ -3735,7 +3735,7 @@ function Library:CreateWindow(...)
         RichText=true,
         Size = UDim2.new(0, 0, 0, 25);
         TextSize=18,
-        Text = 'Void<font color="#'..Library.Colors["Active"]:ToHex()..'">maw</font>' ..Config.Title or "";
+        Text = '<font color="#'..Library.Colors["Active"]:ToHex()..'"></font>' ..Config.Title or "";
         ZIndex = 1;
         Parent = Background;
     });
@@ -3745,7 +3745,7 @@ function Library:CreateWindow(...)
                 i[i2] = Library.Colors[v2] 
             end
         end
-        WindowLabel.Text = 'Void<font color="#'..Library.Colors["Active"]:ToHex()..'">maw</font>' ..Config.Title or "";
+        WindowLabel.Text = '<font color="#'..Library.Colors["Active"]:ToHex()..'"></font>' ..Config.Title or "";
     end
     Library.Functions:AddToRegistery(WindowLabel, {TextColor3="Text"})
     local TitleLine = Library.Functions:Create('Frame', {
