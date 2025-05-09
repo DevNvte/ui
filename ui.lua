@@ -1,6 +1,6 @@
 flocal cloneref = cloneref or function() return end
 
---Locals
+--Localss
 local Players = cloneref(game:GetService("Players"))
 local InputService = game:GetService('UserInputService');
 local RunService = game:GetService("RunService")
